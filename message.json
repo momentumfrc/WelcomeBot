@@ -1,0 +1,45 @@
+{
+    "text": "Welcome to the *Momentum Robotics* Slack Workspace. Slack is our team's primary method of communication so it is important that you know how to use it effectively. There's no limit on how many channels you join, so join any that seem interesting to you. Some good starting channels are listed below.",
+    "attachments": [
+        {
+            "title":"Manufacturing",
+            "text": "<#C7376L59S|manufact_team>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Design",
+            "text": "<#C72KP2J1X|design_team>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Programming",
+            "text": "<#C1JUCTD5E|programming_team>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Electrical",
+            "text": "<#C2GQNM00Y|electrical_team>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Safety",
+            "text": "<#C4PPK25AN|safety>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Administration",
+            "text":"<#C4CHDMY5D|charimans>\n<#C7X103HC0|finance_operations>\n<#C4ZTJ2VKR|fundraising>\n<#C4X8GPDRD|sponsors>\n<#C16J8D535|grants>\n<#CDMGK2CD8|awards>\n<#C77070LV8|food>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Parents",
+            "text":"<#C3R5B68DC|teamparents>",
+            "color": "#06ceff"
+        },
+        {
+            "title":"Team Information",
+            "text":"<#C130Q5C8G|general>\n<#C1C53G9PC|announcements>\n<#C13RG2ZN3|meetings>\n<#C5W9DBP61|live>",
+            "color": "#06ceff"
+        }
+    ]
+}

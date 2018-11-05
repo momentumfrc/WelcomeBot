@@ -1,0 +1,4 @@
+<?php
+$slack_signing_secret = "";
+$bot_token = "";
+?>

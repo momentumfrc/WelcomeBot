@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && verifySlack()) {
                         exit();
                     }
                     if($event["channel_type"] == "im") {
-                        if(strpos($event["text"], "repeat") !== false) {
+                        if(stripos($event["text"], "repeat") !== false) {
                             writeToLog("Sending message in ".$event["channel"], "events");
                             postMessage($event["channel"],$message);
                         }

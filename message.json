@@ -25,7 +25,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Programming*\n<#C1JUCTD5E|programming_team>"
+				"text": "*Programming*\n<#C1JUCTD5E|programming_team>\n<#C3G8PPS3W|vision_processing>"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Administration*\n<#C4CHDMY5D|charimans>\n<#C7X103HC0|finance_operations>\n<#C4ZTJ2VKR|fundraising>\n<#C4X8GPDRD|sponsors>\n<#C16J8D535|grants>\n<#CDMGK2CD8|awards>\n<#C77070LV8|food>"
+				"text": "*Administration*\n<#C7X103HC0|finance_operations>\n<#C4ZTJ2VKR|fundraising>\n<#C4X8GPDRD|sponsors>\n<#C16J8D535|grants>\n<#CDMGK2CD8|awards>\n<#C77070LV8|food>"
 			}
 		},
 		{
@@ -60,8 +60,15 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Team Information*\n<#C130Q5C8G|general>\n<#C1C53G9PC|announcements>\n<#C13RG2ZN3|meetings>\n<#C5W9DBP61|live>"
+				"text": "*Team Information*\n<#C130Q5C8G|general>\n<#C1C53G9PC|announcements>\n<#C13RG2ZN3|meetings>"
 			}
-		}
+        },
+        {
+            "type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Game Information*\n<#C4RK3BC83|strats-scouts>\n<#C5W9DBP61|live>"
+			}
+        }
 	]
 }

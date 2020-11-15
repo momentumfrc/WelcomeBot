@@ -45,7 +45,10 @@ function open_im($user) {
 function postMessage($channel, $message) {
     global $bot_token;
     $message["channel"] = $channel;
-    json_post_query_slack("https://slack.com/api/chat.postMessage",$bot_token,json_encode($message));
+    $response = json_decode(json_post_query_slack("https://slack.com/api/chat.postMessage",$bot_token,json_encode($message)));
+    if(!isset($response["ok"]) || !$response["ok"]) {
+        writeToLog("Failed to send message: ".json_encode($response), "events");
+    }
 }
 function writeToLog($string, $log) {
 	file_put_contents("./".$log.".log", date("d-m-Y_h:i:s")."-- ".$string."\r\n", FILE_APPEND);

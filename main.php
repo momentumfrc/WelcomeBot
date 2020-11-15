@@ -34,7 +34,7 @@ function json_post_query_slack($url,$token,$encoded_data) {
 }
 function open_im($user) {
     global $bot_token;
-    $response = json_decode(post_query_slack("https://slack.com/api/im.open", array("token"=> $bot_token, "user"=> $user)), true);
+    $response = json_decode(post_query_slack("https://slack.com/api/conversations.open", array("token"=> $bot_token, "users"=> $user)), true);
     if (isset($response["ok"]) && $response["ok"]) {
         return $response["channel"]["id"];
     } else {

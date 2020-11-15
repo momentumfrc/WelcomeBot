@@ -24,7 +24,7 @@ function json_post_query_slack($url,$token,$encoded_data) {
     curl_setopt($curl, CURLOPT_POSTFIELDS, $encoded_data);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-        'Content-Type: application/json',
+        'Content-Type: application/json; charset=utf-8',
         'Authorization: Bearer '.$token,
         'Content-Length: '.strlen($encoded_data)
     ));

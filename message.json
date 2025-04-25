@@ -11,7 +11,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Manufacturing*\n<#C7376L59S|manufact_team>"
+				"text": "*Manufacturing*\n<#C7376L59S|manufact_team>\n<#C08D0HB93L2|cam>\n<#C05RWPZLS4Q|3d-printing>"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Programming*\n<#C1JUCTD5E|programming_team>\n<#C3G8PPS3W|vision_processing>"
+				"text": "*Programming*\n<#C1JUCTD5E|programming_team>"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Administration*\n<#C7X103HC0|finance_operations>\n<#C4ZTJ2VKR|fundraising>\n<#C4X8GPDRD|sponsors>\n<#C16J8D535|grants>\n<#CDMGK2CD8|awards>\n<#C77070LV8|food>"
+				"text": "*Administration*\n<#C7X103HC0|finance_operations>\n<#C4ZTJ2VKR|fundraising>\n<#C4X8GPDRD|sponsors>\n<#C16J8D535|grants>\n<#CDMGK2CD8|awards>\n<#C77070LV8|food>\n<#C0717RDAYF5|project-management>"
 			}
 		},
 		{
@@ -60,7 +60,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Team Information*\n<#C130Q5C8G|general>\n<#C1C53G9PC|announcements>\n<#C13RG2ZN3|meetings>"
+				"text": "*Team Information*\n<#C130Q5C8G|general>\n<#C1C53G9PC|announcements>\n<#C13RG2ZN3|meetings>\n<#C0600DV2B0E|photos>"
 			}
         },
         {
